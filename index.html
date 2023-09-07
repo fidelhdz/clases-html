@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso HTML</title>
+    <meta name="description" content="johdfsdfjshdfkjshdf" />
+</head>
+<body>
+    <!-- Titulos -->
+    <h1>Titulo 1</h1>
+    <h2>Titulo 2</h2>
+    <h3>Titulo 3</h3>
+    <h4>Titulo 4</h4>
+    <h5>Titulo 5</h5>
+    <h6>Titulo 6</h6>
+
+    <hr />
+
+    <!-- Parrafo -->
+    <p id="parrafos">Lorem ipsum, dolor sit amet <strong>consectetur adipisicing</strong> elit. <em>Assumenda eveniet asperiores</em> deserunt dolorem deleniti voluptas ipsum alias atque molestias! <u>Tempore, commodi!</u> Ipsam nostrum non laboriosam quos voluptatibus quod maiores aliquam.</p>
+
+    <hr />
+
+    <!-- Caracteres especiales -->
+    <p>Ni&ntilde;o está &aacute; &eacute; &iacute; &oacute; &Uacute; &ntilde; </p>
+
+    <hr />
+
+    <!-- Lista Ordenada -->
+    <ol type="A">
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ol>
+
+    <hr />
+
+    <!-- Lista Desordenada -->
+    <ul style="list-style: circle;">
+        <li>
+            <!-- Lista anidada -->
+            Elemento 1
+            <ol type="I">
+                <li>Elemento X</li>
+                <li>Elemento Y</li>
+                <li>Elemento Z</li>
+            </ol>
+        </li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+
+    <hr />
+
+    <!-- Imagen -->
+    <img src="./imagenes/Background.png" width="50%" alt="Graffiti en colores naranja y negro" />
+
+    <hr />
+
+    <!-- Etiqueta center -->
+    <center>
+        <img src="./imagenes/Background.png" width="30%" alt="Graffiti en colores naranja y negro" />
+    </center>
+
+    <center>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, sint? A esse quas vero, necessitatibus ex labore deserunt quisquam tempore odit rem. Sit tenetur suscipit incidunt beatae quisquam aliquid rem?</p>
+    </center>
+
+    <hr />
+
+    <!-- Parrafo con imagen -->
+    <p><img src="./imagenes/Background.png" width="120" alt="Graffiti en colores naranja y negro" align="top" /> Lorem ipsum, dolor sit amet <strong>consectetur adipisicing</strong> elit. <em>Assumenda eveniet asperiores</em> deserunt dolorem deleniti voluptas ipsum alias atque molestias! <u>Tempore, commodi!</u> Ipsam nostrum non laboriosam quos voluptatibus quod maiores aliquam.</p>
+    
+    <p><img src="./imagenes/Background.png" width="120" alt="Graffiti en colores naranja y negro" align="middle" /> Lorem ipsum, dolor sit amet <strong>consectetur adipisicing</strong> elit. <em>Assumenda eveniet asperiores</em> deserunt dolorem deleniti voluptas ipsum alias atque molestias! <u>Tempore, commodi!</u> Ipsam nostrum non laboriosam quos voluptatibus quod maiores aliquam.</p>
+    
+    <p><img src="./imagenes/Background.png" width="120" alt="Graffiti en colores naranja y negro" align="bottom" /> Lorem ipsum, dolor sit amet <strong>consectetur adipisicing</strong> elit. <em>Assumenda eveniet asperiores</em> deserunt dolorem deleniti voluptas ipsum alias atque molestias! <u>Tempore, commodi!</u> Ipsam nostrum non laboriosam quos voluptatibus quod maiores aliquam.</p>
+
+    <hr />
+
+    <!-- Parrafo centrado -->
+    <p align="center" style="width:50%;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi eveniet maiores magni eaque veritatis consequuntur in ex perferendis quo expedita beatae veniam, id natus exercitationem soluta illum eius. Odio, ipsum.</p>
+
+    <hr />
+    <!-- Parrafo con Retorno de carro -->
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br />
+        Velit eligendi iusto soluta, sint minima error corporis nam sit, accusamus ipsum quasi, explicabo laborum ducimus sunt est commodi asperiores consectetur autem?
+    </p>
+
+    <hr />
+
+    <!-- Lista de definiciones y abbr -->
+    <dl>
+        <!-- Ejemplo de definicion -->
+        <dt>Titulo</dt>
+        <dd>Definicion</dd>
+        <!-- Definicion 2 -->
+        <dt>Significado de las Siglas del IMSS</dt>
+        <dd>Significan Instituto Mexicano del Seguro Social.</dd>
+        <!-- Definicion 3 -->
+        <dt>Significado de las Siglas del <abbr title="Organizaci&oacute;n de las Naciones Unidas">ONU</abbr></dt>
+        <dd>Significan Organizaci&oacute;n de las Naciones Unidas.</dd>
+    </dl>
+
+    <hr />
+
+    <!-- TABLAS -->
+    <table border="1" cellspacing="0" cellpadding="10" width="100%">
+        <tbody>
+            <tr>
+                <td>Celda 1</td>
+                <td>Celda 2</td>
+                <td>Celda 3</td>
+            </tr>
+            <tr>
+                <td>Celda 4</td>
+                <td>Celda 5</td>
+                <td>Celda 6</td>
+            </tr>
+            <tr>
+                <td>Celda 7</td>
+                <td>Celda 8</td>
+                <td>Celda 9</td>
+            </tr>
+        </tbody>
+        <!-- #RRGGBB Red Green Blue -->
+        <thead bgcolor="#ff5619">
+            <tr>
+                <td>Encabezado 1</td>
+                <td>Encabezado 2</td>
+                <td>Encabezado 3</td>
+            </tr>
+        </thead>
+    </table>
+
+    <hr />
+
+    <!-- Enlaces -->
+    <a href="https://www.google.com">Google</a>
+    <a href="#parrafos">Ir a parrafos</a>
+
+    <!-- Para obtener colores Hexadecimales -> https://www.rapidtables.com/web/color/RGB_Color.html -->
+</body>
+</html>
